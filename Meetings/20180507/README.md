@@ -1,0 +1,3 @@
+## Estimating Subgraph Generation Models
+
+The meeting about network formation analysis was based on work done for the Young eScientist project 2018. The Mathematica Notebook presented is a copy from the one in [here](https://github.com/Subgraph-Generation-Models). It also includes a copy in CDF format, which can be viewed using the free [CDF viewer](https://www.wolfram.com/cdf/). Finally, a fully evaluated PDF version is included.
