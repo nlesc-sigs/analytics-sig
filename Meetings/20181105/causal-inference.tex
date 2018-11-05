@@ -1,0 +1,523 @@
+\documentclass{beamer}
+\usepackage{amsfonts, comment}
+\usepackage{tikz}
+\usepackage{arydshln}
+
+\usetheme{Berlin}
+\usecolortheme{beaver}
+
+\renewcommand{\P}{\mathbb{P}}
+\DeclareMathOperator{\Do}{do}
+\DeclareMathOperator{\Par}{par}
+\newcommand{\Rec}{\text{Rec}}
+\newcommand{\MedX}{\text{Med $A$}}
+\newcommand{\Sex}{\text{Sex}}
+\title{Intro to Causal Inference}
+\author{Mees de Vries (BrainCreators)}
+\date{\today}
+\begin{document}
+
+\maketitle
+
+\begin{frame}
+    \frametitle{Overview}
+    \begin{enumerate}
+        \item Motivation: why and what?
+        \item Causal models: the definitions and working with them.
+        \item Simpson's paradox: causal inference to the rescue!
+    \end{enumerate}
+\end{frame}
+
+\section{Motivation}
+\subsection{Why?}
+\begin{frame}
+    \frametitle{Why Causal Reasoning?}
+    Causality is not built into our normal statistical language: random
+    variables $X, Y, Z$ can be dependent, but there is no mathematical way to
+    talk about which causes which.\pause\bigskip
+
+    \begin{center}
+        ``Correlation is not causation!''
+    \end{center}
+\end{frame}
+
+\subsection{Example}
+\begin{frame}
+    \frametitle{Why Causal Reasoning?}
+    Causality comes into play almost any time we want to take action
+    based on statistical data. Consider:
+    \begin{itemize}
+        \item $X$: the frequency of high-sodium meals in my diet;
+        \item $Y$: my blood pressure;
+        \item $Z$: my headache frequency.\pause
+    \end{itemize}
+    We might very well have that $(X,Y)$ and $(Z, Y)$ are identically
+    distributed. But we do not treat hypertension with painkillers!
+\end{frame}
+
+\begin{frame}
+    \frametitle{Why Causal Reasoning?}
+    \begin{itemize}
+        \item $X$: high-sodium meal count;
+        \item $Y$: blood pressure;
+        \item $Z$: headache count.\pause
+    \end{itemize}
+    If we want to model how a better diet would lower my blood pressure, we
+    might want to estimate
+    \[
+        \P(Y = y \mid X = x).
+    \]
+    However, the quantity
+    \[
+        \P(Y = y \mid Z = z)
+    \]
+    gives us no such information. Why is this difference not in our
+    mathematical language?
+\end{frame}
+
+\subsection{Do-calculus}
+\begin{frame}
+    \frametitle{Do-calculus}
+    Desideratum: an ``operator for interventions''. For $X, Y$ random variables
+    we want an expression
+    \[
+        \P(Y = y \mid \Do(X = x)).\pause
+    \]
+    For $X, Y, Z$ as before we should have
+    \[
+        \P(Y = y \mid \Do(X = x)) = \P(Y = y \mid X = x),
+    \]
+    yet
+    \[
+        \P(Y = y \mid \Do(Z = z)) = \P(Y = y).
+    \]
+\end{frame}
+
+\section{Causal Models}
+\subsection{Example and Definition}
+\begin{frame}
+    \frametitle{Example}
+    Our causal models should be as simple as possible. We just want to encode
+    causal relationships.\pause\bigskip
+    
+    For our example:
+    \begin{center}
+        \begin{tikzpicture}
+            \node[shape=circle,draw=black] (X) at (0,0) {X};
+            \node[shape=circle,draw=black] (Y) at (2,0) {Y};
+            \node[shape=circle,draw=black] (Z) at (4,0) {Z};
+            \draw[->](X) edge (Y);
+            \draw[->](Y) edge (Z);
+        \end{tikzpicture}
+    \end{center}\pause
+    This says: $X$ is a direct cause of $Y$, and $Y$ is a direct cause of
+    $Z$. \pause \alert{Implicit assumption}: there are no relationships between the
+    variables that are not in the model.
+\end{frame}
+
+\begin{frame}
+    \frametitle{Definition}
+    \begin{block}{Definition}
+    A \emph{causal model} consists of:
+    \begin{itemize}
+        \item A DAG $G = (V, E)$,
+        \item independent random variables $(U_v)_{v \in V}$,
+        \item functions $(f_v)_{v \in V}$ of the appropriate type.
+    \end{itemize}
+    The \emph{value} $X_v$ in a causal model $(G, U, f)$ at a node $v$ is
+    defined recursively as
+    \[
+        X_v = f_v(U_v, X_{\Par(v)}).
+    \]
+    \end{block}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Definition}
+    \begin{block}{Definition}
+        A \emph{causal model} consists of $G = (V, E)$ with $(U_v)_{v \in V}$,
+        $(f_v)_{v \in V}$. The value in the causal model at $v$ is $X_v
+        = f_v(U_v, X_{\Par(v)})$.
+    \end{block}
+    Causal model for hypertension:
+    \begin{center}
+        \begin{tikzpicture}[scale=0.8]
+            \node[shape=circle,draw=black] (X) at (0,0) {$X$};
+            \node[shape=circle,draw=black] (Y) at (2,0) {$Y$};
+            \node[shape=circle,draw=black] (Z) at (4,0) {$Z$};
+            \node[shape=circle,draw=black,dashed] (UX) at (-1,1) {\footnotesize $U_X$};
+            \node[shape=circle,draw=black,dashed] (UY) at (1,1) {\footnotesize $U_Y$};
+            \node[shape=circle,draw=black,dashed] (UZ) at (3,1) {\footnotesize $U_Z$};
+            \draw[->](X) edge (Y);
+            \draw[->](Y) edge (Z);
+
+            \draw[->](UX) edge (X);
+            \draw[->](UY) edge (Y);
+            \draw[->](UZ) edge (Z);
+        \end{tikzpicture}
+    \end{center}
+    From now on, we omit the exogenous variables (the $U_v$) from our diagrams.
+\end{frame}
+
+\begin{frame}
+    \frametitle{Dependence and independence}
+    \begin{center}
+        \begin{tikzpicture}[scale=0.6]
+            \node[shape=circle,draw=black] (X) at (0,1) {\footnotesize$X$};
+            \node[shape=circle,draw=black] (V) at (0,-1) {\footnotesize$V$};
+            \node[shape=circle,draw=black] (Y) at (2,0) {\footnotesize$Y$};
+            \node[shape=circle,draw=black] (Z) at (4,1) {\footnotesize$Z$};
+            \node[shape=circle,draw=black] (W) at (4,-1) {\footnotesize$W$};
+            \draw[->](X) edge (Y);
+            \draw[->](V) edge (Y);
+            \draw[->](Y) edge (Z);
+            \draw[->](Y) edge (W);
+        \end{tikzpicture}
+    \end{center}
+    Graphical models already tell us a lot about dependence and
+    independence.\pause
+    \begin{itemize}
+        \item $X \perp V$
+        \item $X \not\perp W$\pause
+        \item $Z \not\perp W$\pause
+        \item $Z \perp W \mid Y$\pause
+        \item $X \not \perp V \mid Y$
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Dependence and independence}
+    \begin{itemize}
+        \item A node $v$ on an \emph{undirected} path in a \emph{directed} graph is
+            a \alert{collider} if both adjacent edges on the path go into $v$.
+        \item Given $Z \subseteq V$, a node $v$ on a path is
+            \alert{$Z$-blocking} if it
+            either
+            \begin{itemize}
+                \item is not a collider, and $v \in Z$, or
+                \item is a collider, and neither $v$ nor any of its descendents
+                    are in $Z$.
+            \end{itemize}
+    \end{itemize}
+    \begin{theorem}
+        $X \perp Y \mid (Z_1, Z_2, \ldots Z_n)$ if each undirected path $p$
+        from $X$ to $Y$ has a $Z$-blocking node on it.
+    \end{theorem}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Computations in Graphical Models}
+    \begin{center}
+        \begin{tikzpicture}[scale=0.6]
+            \node[shape=circle,draw=black] (X) at (0,1) {\footnotesize$X$};
+            \node[shape=circle,draw=black] (V) at (0,-1) {\footnotesize$V$};
+            \node[shape=circle,draw=black] (Y) at (2,0) {\footnotesize$Y$};
+            \node[shape=circle,draw=black] (Z) at (4,1) {\footnotesize$Z$};
+            \node[shape=circle,draw=black] (W) at (4,-1) {\footnotesize$W$};
+            \draw[->](X) edge (Y);
+            \draw[->](V) edge (Y);
+            \draw[->](Y) edge (Z);
+            \draw[->](Y) edge (W);
+        \end{tikzpicture}
+    \end{center}
+    Graphical models allow us to simplify computations.\pause
+    \begin{align*}
+        \P(z, w, y, x, v) &= \P(z \mid w, y, x, v)\P(w \mid y, x, v) \P(y \mid
+        x, v) \P(x \mid v) \P(x)\\
+        \only<3->{&= \P(z \mid y) \P(w \mid y) \P(y \mid x, v) \P(x) \P(v)}
+    \end{align*}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Caution: Intransitive}
+    Note that models are not transitive! The following are \alert{different}:
+    \begin{center}
+        \begin{tikzpicture}
+            \node[shape=circle,draw=black] (X) at (0,0) {\footnotesize$X$};
+            \node[shape=circle,draw=black] (Y) at (2,0) {\footnotesize$Y$};
+            \node[shape=circle,draw=black] (Z) at (4,0) {\footnotesize$Z$};
+            \draw[->](X) edge (Y);
+            \draw[->](Y) edge (Z);
+        \end{tikzpicture}
+    \end{center}
+    \begin{center}
+        \begin{tikzpicture}
+            \node[shape=circle,draw=black] (X) at (0,0) {\footnotesize$X$};
+            \node[shape=circle,draw=black] (Y) at (2,1) {\footnotesize$Y$};
+            \node[shape=circle,draw=black] (Z) at (4,0) {\footnotesize$Z$};
+            \draw[->](X) edge (Y);
+            \draw[->](Y) edge (Z);
+            \draw[->](X) edge (Z);
+        \end{tikzpicture}
+    \end{center}
+\end{frame}
+
+\subsection{Causality}
+\begin{frame}
+    \frametitle{Causal Models and Bayesian Networks}
+    So far, I have basically described Bayesian networks. What is the
+    difference?\pause\bigskip
+
+    In Bayesian networks, the following two are essentially the same model:
+    \begin{center}
+        \begin{tikzpicture}
+            \node[shape=circle,draw=black] (X) at (0,0) {\footnotesize$X$};
+            \node[shape=circle,draw=black] (Y) at (2,0) {\footnotesize$Y$};
+            \node[shape=circle,draw=black] (Z) at (4,0) {\footnotesize$Z$};
+            \draw[->](X) edge (Y);
+            \draw[->](Y) edge (Z);
+        \end{tikzpicture}
+    \end{center}
+    \begin{center}
+        \begin{tikzpicture}
+            \node[shape=circle,draw=black] (X) at (0,0) {\footnotesize$X$};
+            \node[shape=circle,draw=black] (Y) at (2,0) {\footnotesize$Y$};
+            \node[shape=circle,draw=black] (Z) at (4,0) {\footnotesize$Z$};
+            \draw[->](Z) edge (Y);
+            \draw[->](Y) edge (X);
+        \end{tikzpicture}
+    \end{center}
+    This is obviously not what we want for causal networks!
+\end{frame}
+
+\begin{frame}
+    \frametitle{Interventions}
+    Recall that causality came into play with \alert{interventions}. What is an
+    intervention in our model?\pause
+    \alt<2>{
+        \begin{center}
+            \begin{tikzpicture}
+                \node[shape=circle,draw=black] (X) at (0,0) {\footnotesize$X$};
+                \node[shape=circle,draw=black] (Y) at (2,0) {\footnotesize$Y$};
+                \node[shape=circle,draw=black] (Z) at (4,0) {\footnotesize$Z$};
+                \draw[->](X) edge (Y);
+                \draw[->](Y) edge (Z);
+            \end{tikzpicture}
+        \end{center}
+    }{
+        \begin{center}
+            \begin{tikzpicture}
+                \node[shape=circle,draw=black] (X) at (0,0) {\footnotesize$X$};
+                \node[shape=circle,draw=black] (Y) at (2,0) {\footnotesize$y$};
+                \node[shape=circle,draw=black] (Z) at (4,0) {\footnotesize$Z$};
+                \draw[->](Y) edge (Z);
+                \draw[->, dashed](X) edge (Y);
+
+                \draw[red, thick] (0.75, -0.25) -- (1.25, 0.25);
+                \draw[red, thick] (0.75, 0.25) -- (1.25, -0.25);
+            \end{tikzpicture}
+        \end{center}
+    }
+    Equations:
+    \alt<2-3>{
+    \begin{align*}
+        X &= f_X(U_X)\\
+        Y &= \alt<2-3>{f_Y(U_Y, X)}{y}\\
+        Z &= \alt<2-3>{f_Z(U_Z, Y)}{f_Z(U_Z, Y') = f_Z(U_Z, y)}
+    \end{align*}
+    }{
+    \begin{align*}
+        X' &= f_X(U_X)\\
+        Y' &= \alt<2-3>{f_Y(U_Y, X)}{y}\\
+        Z' &= \alt<2-3>{f_Z(U_Z, Y)}{f_Z(U_Z, Y') = f_Z(U_Z, y)}
+    \end{align*}
+    }
+    \pause\pause
+    We use the $'$ to distinguish the random variables from the original and
+    modified networks.
+\end{frame}
+
+\begin{frame}
+    \frametitle{That $\Do$ Operator}
+    \begin{definition}
+        Let $(G, U, f)$ be a causal model with nodes $X, Y$. Then
+        \[
+            \P(Y = y \mid \Do(X = x))
+        \]
+        is the probability that $Y' = y$ in the modified network with $X$ set to
+        $x$.
+    \end{definition}
+    \pause
+    Example: hypertension case.
+\end{frame}
+
+\section{Simpson's Paradox}
+\subsection{The Paradox}
+\begin{frame}
+    \frametitle{Simpson's Paradox}
+    There is a particular medication $A$ on the market for disease $X$.
+Statisticians want to test the effect of the medication. They randomly sample
+people afflicted by $X$, and find:
+{\small
+\begin{center}
+    \begin{tabular}{l|rr:r}
+        Treatment & Recovery (male) & Recovery (female) & Recovery (total)\\
+        \hline
+        Medication $A$ & 9/10 = 90\%& 20/35 = 57\%& 29/45 = 64\% \\
+        None           & 35/40 = 88\%& 8/15 = 53\%& 43/55 = 78\%\\
+        \hdashline
+        Total & 44/50 = 88\%& 28/50 = 54\%& 72/100 = 72\%
+    \end{tabular}
+\end{center}
+}
+\pause
+\alert{Question}: should medication $A$ be banned?
+\pause
+\begin{itemize}
+    \item The medication has a bad effect on the whole population...\pause
+    \item but the medication has a good effect on both men and women!
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Simpson's Paradox (alternative)}
+    The statisticians decide to investigate further. They find 100 women who
+have the early stages of the disease for a double blind study. They
+additionally measure increase or decrease of a relevant protein $P$ before and after
+treatment. 
+{\small
+\begin{center}
+    \begin{tabular}{l|rr:r}
+        Treatment & Recovery (inc) & Recovery (dec) & Recovery (total)\\
+        \hline
+        Medication $A$ &  1/10 = 10\%& 28/40 = 70\%& 29/50 = 58\%\\
+        Placebo        &  9/25 = 36\%& 18/25 = 72\%& 27/50 = 54\%\\
+        \hdashline
+        Total          & 10/35 = 29\%& 46/65 = 71\%& 56/100 = 56\%
+    \end{tabular}
+\end{center}
+}
+\pause
+\alert{Question}: should medication $A$ be banned (for women)?
+\pause
+\begin{itemize}
+    \item The medication has a good effect on the whole population of women...\pause
+    \item but the medication has a bad effect on both people whose $P$-levels
+increase and decrease!
+\end{itemize}
+\end{frame}
+
+\subsection{Causal models}
+\begin{frame}
+    \frametitle{Causal Model for SP/SPa}
+    The causal models are different for the two cases. Clearly, medication
+    usage or recovery outcome cannot \emph{cause} a difference in sex, so:
+    \begin{center}
+        \begin{tikzpicture}
+            \node[shape=rectangle,draw=black] (X) at (0,0) {Sex};
+            \node[shape=rectangle,draw=black] (Y) at (2,1) {Med $A$};
+            \node[shape=rectangle,draw=black] (Z) at (4,0) {Rec};
+            \draw[->](X) edge (Y);
+            \draw[->](Y) edge (Z);
+            \draw[->](X) edge (Z);
+        \end{tikzpicture}
+    \end{center}
+    However, in our randomized trial, $P$-level cannot \emph{cause}
+    a difference in medication usage, so:
+    \begin{center}
+        \begin{tikzpicture}
+            \node[shape=rectangle,draw=black] (X) at (0,0) {Med $A$};
+            \node[shape=rectangle,draw=black] (Y) at (2,1) {$P$-level};
+            \node[shape=rectangle,draw=black] (Z) at (4,0) {Rec};
+            \draw[->](X) edge (Y);
+            \draw[->](Y) edge (Z);
+            \draw[->](X) edge (Z);
+        \end{tikzpicture}
+    \end{center}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Interventions for SP}
+    What if we make the intervention ``take medication'' in the original
+    paradox?
+    \alt<1>{
+    \begin{center}
+        \begin{tikzpicture}
+            \node[shape=rectangle,draw=black] (X) at (0,0) {Sex};
+            \node[shape=rectangle,draw=black] (Y) at (2,1) {Med $A$};
+            \node[shape=rectangle,draw=black] (Z) at (4,0) {Rec};
+            \draw[->](X) edge (Y);
+            \draw[->](Y) edge (Z);
+            \draw[->](X) edge (Z);
+        \end{tikzpicture}
+    \end{center}
+    }{
+    \begin{center}
+        \begin{tikzpicture}
+            \node[shape=rectangle,draw=black] (X) at (0,0) {Sex};
+            \node[shape=rectangle,draw=black] (Y) at (2,1) {Med $A$: $\top$};
+            \node[shape=rectangle,draw=black] (Z) at (4,0) {Rec};
+            \draw[->, dashed, gray](X) edge (Y);
+            \draw[->](Y) edge (Z);
+            \draw[->](X) edge (Z);
+        \end{tikzpicture}
+    \end{center}
+    }
+    \pause\pause
+
+    So we get:
+    \begin{align*}
+        \P(\text{Rec} &= \top \mid \Do(A = \top)) = \P(\Rec' = \top)\\
+        &= \sum_{s \in \{M, F\}} \P(\text{Rec}' = \top \mid \Sex' = s)\P(\Sex'
+        = s)\\
+        &= \sum_{s \in \{M, F\}}\P(\Rec = \top \mid A = \top, \Sex = s)\P(\Sex
+        = s).
+    \end{align*}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Interventions for SPa}
+    What about the alternate paradox?
+    \alt<1>{
+    \begin{center}
+        \begin{tikzpicture}
+            \node[shape=rectangle,draw=black] (X) at (0,0) {Med $A$};
+            \node[shape=rectangle,draw=black] (Y) at (2,1) {$P$-level};
+            \node[shape=rectangle,draw=black] (Z) at (4,0) {Rec};
+            \draw[->](X) edge (Y);
+            \draw[->](Y) edge (Z);
+            \draw[->](X) edge (Z);
+        \end{tikzpicture}
+    \end{center}
+    }{
+    \begin{center}
+        \begin{tikzpicture}
+            \node[shape=rectangle,draw=black] (X) at (0,0) {Med $A = \top$};
+            \node[shape=rectangle,draw=black] (Y) at (2,1) {$P$-level};
+            \node[shape=rectangle,draw=black] (Z) at (4,0) {Rec};
+            \draw[->](X) edge (Y);
+            \draw[->](Y) edge (Z);
+            \draw[->](X) edge (Z);
+        \end{tikzpicture}
+    \end{center}
+    }
+    \pause\pause
+    So we get:
+    \begin{align*}
+        \P(\Rec = \top \mid \Do(A = \top)) &= \P(\Rec' = \top)\\
+        &= \P(\Rec = \top \mid A = \top)
+    \end{align*}
+    So do not separately take the $P$-level cases into account!
+\end{frame}
+
+\subsection{Conclusion}
+\begin{frame}
+    \frametitle{Take-aways}
+    \begin{itemize}
+        \item Basic causal modeling might not directly lead to new insight, but
+            it helps us formalize our intuitions.
+        \item Several counterintuitive problems become nicer in the context of
+            causal modeling. 
+            \begin{itemize}
+                \item Simpson's paradox
+                \item Berkson's paradox
+                \item Monty Hall problem
+            \end{itemize}
+        \item Given a causal model, you can often answer questions about
+            interventions without making interventions.
+        \item Major drawback: we require a DAG. Many real-world complex systems
+            have feedback, and are thus not acyclic.
+    \end{itemize}
+\end{frame}
+
+\end{document}
