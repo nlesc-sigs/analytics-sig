@@ -22,9 +22,32 @@ Did you do something really cool? Share your experiences with the SIG! Contact L
 
 | Date       | Topic                                  | Presenter |
 | ----------:|:--------------------------------------:|:--------- |
-| 2018-04-12 | Important weighting                    | Wouter    |
+| 2018-04-12 | Importance weighting                   | Wouter    |
 | 2018-05-07 | Network formation models               | Laurens   |
 | 2018-05-31 | Network community detection            | Dafne     |
 | 2018-06-21 | Topological data analysis              | Johan     |
 | 2018-08-02 | Applied multilevel regression analysis | Vincent   |
 | 2018-11-05 | Causal inference                       | Mees      |
+| 2019-01-21 | Surrogate modelling                    | Laurens   |
+
+## Engineers with technical experience
+
+| Technique      | Engineers        |
+| --------------:|:---------------- |
+| SEM            | Laurens          |
+
+## Engineers with software experience
+
+| Software       | Engineers        |
+| --------------:|:---------------- |
+| R              | Laurens, Vincent |
+| SPSS           | Laurens          |
+| AMOS           | Laurens          |
+
+## Interesting events
+
+| Events                                                                   |
+| ------------------------------------------------------------------------ |
+| [R Cafe](https://github.com/UtrechtUniversity/R-data-cafe)               |
+| [Data Science Amsterdam](https://www.meetup.com/Data-Science-Amsterdam/) |
+| [Amste-R-dam](https://www.meetup.com/amst-R-dam/)                        |
