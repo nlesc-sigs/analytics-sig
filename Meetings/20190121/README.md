@@ -1,0 +1,3 @@
+## Surrogate Modelling
+
+The meeting about surrogate modelling was based on work done for the e-Musc project. The Mathematica Notebook presented is a copy from the one in [here](https://gitlab.computationalscience.nl/surrogate/surrogate-modelling-review). It also includes a copy in CDF format, which can be viewed using the free [CDF viewer](https://www.wolfram.com/cdf/). Finally, a fully evaluated PDF version is included.
