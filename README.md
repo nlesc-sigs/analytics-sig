@@ -32,13 +32,14 @@ Did you do something really cool? Share your experiences with the SIG! Contact L
 
 ## Engineers with technical experience
 
-| Technique      | Engineers        |
-| --------------:|:---------------- |
-| SEM            | Laurens          |
+| Technique                           | Engineer(s)      |
+| -----------------------------------:|:---------------- |
+| Structural Equation Modelling (SEM) | Laurens          |
+| Hamiltonian Monte Carlo (HMC)       | Patrick          |
 
 ## Engineers with software experience
 
-| Software       | Engineers        |
+| Software       | Engineer(s)      |
 | --------------:|:---------------- |
 | R              | Laurens, Vincent |
 | SPSS           | Laurens          |
@@ -46,8 +47,8 @@ Did you do something really cool? Share your experiences with the SIG! Contact L
 
 ## Interesting events
 
-| Events                                                                   |
-| ------------------------------------------------------------------------ |
-| [R Cafe](https://github.com/UtrechtUniversity/R-data-cafe)               |
-| [Data Science Amsterdam](https://www.meetup.com/Data-Science-Amsterdam/) |
-| [Amste-R-dam](https://www.meetup.com/amst-R-dam/)                        |
+| Location       | Organisation        | Event                                                                    |
+| --------------:|:-------------------:|:------------------------------------------------------------------------ |
+| Utrecht        | Utrecht University  | [R Cafe](https://github.com/UtrechtUniversity/R-data-cafe)               |
+| Amsterdam      | MeetUp              | [Data Science Amsterdam](https://www.meetup.com/Data-Science-Amsterdam/) |
+| Amsterdam      | MeetUp              | [Amste-R-dam](https://www.meetup.com/amst-R-dam/)                        |
