@@ -47,8 +47,9 @@ Did you do something really cool? Share your experiences with the SIG! Contact L
 
 ## Interesting events
 
-| Location       | Organisation        | Event                                                                    |
-| --------------:|:-------------------:|:------------------------------------------------------------------------ |
-| Utrecht        | Utrecht University  | [R Cafe](https://github.com/UtrechtUniversity/R-data-cafe)               |
-| Amsterdam      | MeetUp              | [Data Science Amsterdam](https://www.meetup.com/Data-Science-Amsterdam/) |
-| Amsterdam      | MeetUp              | [Amste-R-dam](https://www.meetup.com/amst-R-dam/)                        |
+| Location       | Organisation        | Event                                                                          |
+| --------------:|:-------------------:|:------------------------------------------------------------------------------ |
+| Utrecht        | Utrecht University  | [Data Science SIG](https://www.uu.nl/en/research/utrecht-applied-data-science) |
+| Utrecht        | Utrecht University  | [R Cafe](https://github.com/UtrechtUniversity/R-data-cafe)                     |
+| Amsterdam      | MeetUp              | [Data Science Amsterdam](https://www.meetup.com/Data-Science-Amsterdam/)       |
+| Amsterdam      | MeetUp              | [Amste-R-dam](https://www.meetup.com/amst-R-dam/)                              |
