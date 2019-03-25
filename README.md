@@ -53,3 +53,15 @@ Did you do something really cool? Share your experiences with the SIG! Contact L
 | Utrecht        | Utrecht University  | [R Cafe](https://github.com/UtrechtUniversity/R-data-cafe)                     |
 | Amsterdam      | MeetUp              | [Data Science Amsterdam](https://www.meetup.com/Data-Science-Amsterdam/)       |
 | Amsterdam      | MeetUp              | [Amste-R-dam](https://www.meetup.com/amst-R-dam/)                              |
+
+
+## Interesting training courses
+
+| Location     | Date                            | Course                                                                                                                                                                       |
+| ------------:|:-------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Utrecht      | 10 July 2019 - 12 July 2019     | [Introduction to Multilevel Analysis ](https://utrechtsummerschool.nl/courses/social-sciences/introduction-to-multilevel-analysis)                                           |
+| Utrecht      | 15 July 2019 - 17 July 2019     | [Advanced Multilevel Analysis](https://utrechtsummerschool.nl/courses/social-sciences/advanced-multilevel-analysis)                                                          |
+| Utrecht      | 19 August 2019 - 23 August 2019 | [Modeling the dynamics of intensive longitudinal data](https://utrechtsummerschool.nl/courses/social-sciences/modeling-the-dynamics-of-intensive-longitudinal-data)          |
+| Utrecht      | 15 April 2019 - 18 April 2019   | [Applied Bayesian Statistics](https://utrechtsummerschool.nl/courses/social-sciences/applied-bayesian-statistics)                                                            |
+| Utrecht      | 08 July 2019 - 12 July 2019     | [Introduction to Structural Equation Modeling using Mplus](https://utrechtsummerschool.nl/courses/social-sciences/introduction-to-structural-equation-modelling-using-mplus) |
+| Utrecht      | 15 July 2019 - 19 July 2019     | [Advanced course on using Mplus](https://utrechtsummerschool.nl/courses/social-sciences/advanced-course-on-using-mplus)                                                      |
