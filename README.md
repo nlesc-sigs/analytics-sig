@@ -29,6 +29,7 @@ Did you do something really cool? Share your experiences with the SIG! Contact L
 | 2018-08-02 | Applied multilevel regression analysis | Vincent   |
 | 2018-11-05 | Causal inference                       | Mees      |
 | 2019-01-21 | Surrogate modelling                    | Laurens   |
+| 2019-07-18 | Copula                                 | Sarah     |
 
 ## Engineers with technical experience
 
