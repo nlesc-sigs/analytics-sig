@@ -19,7 +19,7 @@ We will discuss your issue during the next SIG meeting.
 Did you do something really cool? Share your experiences with the SIG! Contact the SIG to arrange a presentation in one of the upcoming sessions.
 
 ## SIG contact
-statistics@esciencecenter.nl
+analytics@esciencecenter.nl
 
 ## Previous and upcoming sessions
 
