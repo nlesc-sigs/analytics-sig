@@ -21,7 +21,7 @@ Did you do something really cool? Share your experiences with the SIG! Contact t
 ## SIG contact
 analytics@esciencecenter.nl
 
-## Previous and upcoming sessions
+## Previous sessions
 
 |       Date |                 Topic                  | Presenter |
 |-----------:|:--------------------------------------:|:----------|
@@ -33,24 +33,30 @@ analytics@esciencecenter.nl
 | 2018-11-05 |            Causal inference            | Mees      |
 | 2019-01-21 |          Surrogate modelling           | Laurens   |
 | 2019-07-18 |                 Copula                 | Sarah     |
+| 2020-02-17 |       Uncertainty quantification       | Anna      |
+| 2020-05-11 |            Complex systems             | Johan     |
+| 2020-05-25 |          Confidence intervals          | Hanno     |
+| 2019-06-08 |           Community detection          | Dafne     |
+| 2019-06-22 |     Change detection in time series    | Wanda     |
 
 ## Engineers with technical experience
 
-|                           Technique | Engineer(s) |
+| Technique                           | Engineer(s) |
 |------------------------------------:|:------------|
 | Structural Equation Modelling (SEM) | Laurens     |
-|       Hamiltonian Monte Carlo (HMC) | Patrick     |
-|    Applied dynamical systems theory | Pablo R.    |
-|                     Computer vision | Pablo R.    |
+| Hamiltonian Monte Carlo (HMC)       | Patrick     |
+| Applied dynamical systems theory    | Pablo R.    |
+| Computer vision                     | Pablo R.    |
+| Geo-statistics                      | Sarah       |
 
 ## Engineers with software experience
 
 | Software | Engineer(s)                |
 |---------:|:---------------------------|
-|        R | Laurens, Vincent, Pablo R. |
-|     SPSS | Laurens                    |
-|     AMOS | Laurens                    |
-|   Matlab | Pablo R.                   |
+|R         | Laurens, Vincent, Pablo R. |
+|SPSS      | Laurens                    |
+|AMOS      | Laurens                    |
+|Matlab    | Pablo R.                   |
 
 ## Interesting events
 
@@ -62,7 +68,6 @@ analytics@esciencecenter.nl
 | Amsterdam |       MeetUp       | [Data Science Amsterdam](https://www.meetup.com/Data-Science-Amsterdam/)                                         |
 | Amsterdam |       MeetUp       | [Amste-R-dam](https://www.meetup.com/amst-R-dam/)                                                                |
 
-
 ## Interesting training courses
 
 | Location |              Date               | Course                                                                                                                                                                       |
@@ -73,3 +78,9 @@ analytics@esciencecenter.nl
 |  Utrecht |  15 April 2019 - 18 April 2019  | [Applied Bayesian Statistics](https://utrechtsummerschool.nl/courses/social-sciences/applied-bayesian-statistics)                                                            |
 |  Utrecht |   08 July 2019 - 12 July 2019   | [Introduction to Structural Equation Modeling using Mplus](https://utrechtsummerschool.nl/courses/social-sciences/introduction-to-structural-equation-modelling-using-mplus) |
 |  Utrecht |   15 July 2019 - 19 July 2019   | [Advanced course on using Mplus](https://utrechtsummerschool.nl/courses/social-sciences/advanced-course-on-using-mplus)                                                      |
+
+## Interesting open-source software
+
+| Software | Topic and source           |
+|---------:|:---------------------------|
+|FORCE     | [Mass-processing of selected medium-resolution satellite image archives](https://www.uni-trier.de/index.php?id=63673)|
