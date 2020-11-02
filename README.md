@@ -40,6 +40,11 @@ analytics@esciencecenter.nl
 | 2020-06-22 |                 Change detection in time series                   | Wanda     |
 | 2020-07-06 |   Chapter0-Introduction in "A First Course in Network Science"    | course    |
 | 2020-07-20 | Chapter1-Network elements in "A First Course in Network Science"  | course    |
+| 2020-08-31 | Chapter1-Network elements in "A First Course in Network Science"  | course    |
+| 2020-09-14 | Chapter1-Network elements in "A First Course in Network Science"  | course    |
+| 2020-09-28 |    Chapter2-Small Worlds in "A First Course in Network Science"   | course    |
+| 2020-10-12 |           Complex numbers for research software engineers         | Pablo     |
+| 2020-10-26 |    Chapter2-Small Worlds in "A First Course in Network Science"   | course    |
 
 ## Engineers with technical experience
 
