@@ -45,6 +45,9 @@ analytics@esciencecenter.nl
 | 2020-09-28 |    Chapter2-Small Worlds in "A First Course in Network Science"   | course    |
 | 2020-10-12 |           Complex numbers for research software engineers         | Pablo     |
 | 2020-10-26 |    Chapter2-Small Worlds in "A First Course in Network Science"   | course    |
+| 2020-11-09 | Voronoi diagrams and their many and varied uses, an introduction  | Johan     |
+| 2020-11-23 |    Chapter2-Small Worlds in "A First Course in Network Science"   | Sarah     |
+| 2020-12-07 |            Extreme value theory in weather & climate              | Gijs      |
 
 ## Engineers with technical experience
 
