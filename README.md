@@ -23,50 +23,56 @@ analytics@esciencecenter.nl
 
 ## Previous sessions
 
-|       Date |                 Topic                                             | Presenter |
-|-----------:|:-----------------------------------------------------------------:|:----------|
-| 2018-04-12 |                       Importance weighting                        | Wouter    |
-| 2018-05-07 |                     Network formation models                      | Laurens   |
-| 2018-05-31 |                   Network community detection                     | Dafne     |
-| 2018-06-21 |                    Topological data analysis                      | Johan     |
-| 2018-08-02 |              Applied multilevel regression analysis               | Vincent   |
-| 2018-11-05 |                        Causal inference                           | Mees      |
-| 2019-01-21 |                       Surrogate modelling                         | Laurens   |
-| 2019-07-18 |                             Copula                                | Sarah     |
-| 2020-02-17 |                    Uncertainty quantification                     | Anna      |
-| 2020-05-11 |                         Complex systems                           | Johan     |
-| 2020-05-25 |                      Confidence intervals                         | Hanno     |
-| 2020-06-08 |                       Community detection                         | Dafne     |
-| 2020-06-22 |                 Change detection in time series                   | Wanda     |
-| 2020-07-06 |   Chapter0-Introduction in "A First Course in Network Science"    | course    |
-| 2020-07-20 | Chapter1-Network elements in "A First Course in Network Science"  | course    |
-| 2020-08-31 | Chapter1-Network elements in "A First Course in Network Science"  | course    |
-| 2020-09-14 | Chapter1-Network elements in "A First Course in Network Science"  | course    |
-| 2020-09-28 |    Chapter2-Small Worlds in "A First Course in Network Science"   | course    |
-| 2020-10-12 |           Complex numbers for research software engineers         | Pablo     |
-| 2020-10-26 |    Chapter2-Small Worlds in "A First Course in Network Science"   | course    |
-| 2020-11-09 | Voronoi diagrams and their many and varied uses, an introduction  | Johan     |
-| 2020-11-23 |    Chapter2-Small Worlds in "A First Course in Network Science"   | Sarah     |
-| 2020-12-07 |            Extreme value theory in weather & climate              | Gijs      |
+|       Date |                              Topic                               | Presenter |
+|-----------:|:----------------------------------------------------------------:|:----------|
+| 2018-04-12 |                       Importance weighting                       | Wouter    |
+| 2018-05-07 |                     Network formation models                     | Laurens   |
+| 2018-05-31 |                   Network community detection                    | Dafne     |
+| 2018-06-21 |                    Topological data analysis                     | Johan     |
+| 2018-08-02 |              Applied multilevel regression analysis              | Vincent   |
+| 2018-11-05 |                         Causal inference                         | Mees      |
+| 2019-01-21 |                       Surrogate modelling                        | Laurens   |
+| 2019-07-18 |                              Copula                              | Sarah     |
+| 2020-02-17 |                    Uncertainty quantification                    | Anna      |
+| 2020-05-11 |                         Complex systems                          | Johan     |
+| 2020-05-25 |                       Confidence intervals                       | Hanno     |
+| 2020-06-08 |                       Community detection                        | Dafne     |
+| 2020-06-22 |                 Change detection in time series                  | Wanda     |
+| 2020-07-06 |   Chapter0-Introduction in "A First Course in Network Science"   | course    |
+| 2020-07-20 | Chapter1-Network elements in "A First Course in Network Science" | course    |
+| 2020-08-31 | Chapter1-Network elements in "A First Course in Network Science" | course    |
+| 2020-09-14 | Chapter1-Network elements in "A First Course in Network Science" | course    |
+| 2020-09-28 |   Chapter2-Small Worlds in "A First Course in Network Science"   | course    |
+| 2020-10-12 |         Complex numbers for research software engineers          | Pablo R.  |
+| 2020-10-26 |   Chapter2-Small Worlds in "A First Course in Network Science"   | course    |
+| 2020-11-09 | Voronoi diagrams and their many and varied uses, an introduction | Johan     |
+| 2020-11-23 |   Chapter2-Small Worlds in "A First Course in Network Science"   | Sarah     |
+| 2020-12-07 |            Extreme value theory in weather & climate             | Gijs      |
 
 ## Engineers with technical experience
 
-| Technique                           | Engineer(s) |
+|                           Technique | Engineer(s) |
 |------------------------------------:|:------------|
 | Structural Equation Modelling (SEM) | Laurens     |
-| Hamiltonian Monte Carlo (HMC)       | Patrick     |
-| Applied dynamical systems theory    | Pablo R.    |
-| Computer vision                     | Pablo R.    |
-| Geo-statistics                      | Sarah       |
+|       Hamiltonian Monte Carlo (HMC) | Patrick     |
+|    Applied dynamical systems theory | Pablo R.    |
+|                     Computer vision | Pablo R.    |
+|                      Geo-statistics | Sarah       |
 
 ## Engineers with software experience
 
 | Software | Engineer(s)                |
 |---------:|:---------------------------|
-|R         | Laurens, Vincent, Pablo R. |
-|SPSS      | Laurens                    |
-|AMOS      | Laurens                    |
-|Matlab    | Pablo R.                   |
+|        R | Laurens, Vincent, Pablo R. |
+|     SPSS | Laurens                    |
+|     AMOS | Laurens                    |
+|   Matlab | Pablo R.                   |
+
+## Potential topics
+
+|                                                     Topic | Suggested by |
+|----------------------------------------------------------:|:-------------|
+| From integral to differential (Gauss and Stokes theorems) | Pablo R.     |
 
 ## Interesting events
 
@@ -91,6 +97,6 @@ analytics@esciencecenter.nl
 
 ## Interesting open-source software
 
-| Software | Topic and source           |
-|---------:|:---------------------------|
-|FORCE     | [Mass-processing of selected medium-resolution satellite image archives](https://www.uni-trier.de/index.php?id=63673)|
+| Software | Topic and source                                                                                                      |
+|---------:|:----------------------------------------------------------------------------------------------------------------------|
+|    FORCE | [Mass-processing of selected medium-resolution satellite image archives](https://www.uni-trier.de/index.php?id=63673) |
