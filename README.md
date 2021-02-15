@@ -72,7 +72,7 @@ analytics@esciencecenter.nl
 
 |                                                     Topic | Suggested by |
 |----------------------------------------------------------:|:-------------|
-| From integral to differential (Gauss and Stokes theorems) | Pablo R.     |
+| Something about partial differential equations?           | Pablo R.     |
 
 ## Interesting events
 
