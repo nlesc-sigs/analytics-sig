@@ -72,6 +72,8 @@ analytics@esciencecenter.nl
 
 |                                                     Topic | Suggested by |
 |----------------------------------------------------------:|:-------------|
+| Trade-off between stability and accuracy in deep learning | Sarah        |
+| Kinematics with a smartphone                              | Pablo R.     |
 | Something about partial differential equations?           | Pablo R.     |
 
 ## Interesting events
