@@ -70,11 +70,11 @@ analytics@esciencecenter.nl
 
 ## Potential topics
 
-|                                                     Topic | Suggested by |
-|----------------------------------------------------------:|:-------------|
-| Trade-off between stability and accuracy in deep learning | Sarah        |
-| Kinematics with a smartphone                              | Pablo R.     |
-| Something about partial differential equations?           | Pablo R.     |
+|                                                                                                                   Topic | Suggested by |
+|------------------------------------------------------------------------------------------------------------------------:|:-------------|
+| [Trade-off between stability and accuracy in deep learning](https://www.sintef.no/projectweb/geilowinterschool/2021/#/) | Sarah        |
+|                                               [Kinematics with a smartphone](https://pabrod.github.io/elevator-en.html) | Pablo R.     |
+|                                                                         Something about partial differential equations? | Pablo R.     |
 
 ## Interesting events
 
