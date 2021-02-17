@@ -75,6 +75,11 @@ analytics@esciencecenter.nl
 | [Trade-off between stability and accuracy in deep learning](https://www.sintef.no/projectweb/geilowinterschool/2021/#/) | Sarah        |
 |                                               [Kinematics with a smartphone](https://pabrod.github.io/elevator-en.html) | Pablo R.     |
 |                                                                         Something about partial differential equations? | Pablo R.     |
+|                                                   Watch lecture on [Network epidemiology](https://youtu.be/vwVDJVbw10k) | Dafne        |
+|                            Watch lectures on [Random walks](https://www.complexityexplorer.org/courses/46-random-walks) | Dafne        |
+| Course on [Agent based models](https://www.complexityexplorer.org/courses/101-introduction-to-agent-based-modeling-spring-2020) | Dafne        |
+
+
 
 ## Interesting events
 
