@@ -48,6 +48,8 @@ analytics@esciencecenter.nl
 | 2020-11-09 | Voronoi diagrams and their many and varied uses, an introduction | Johan     |
 | 2020-11-23 |   Chapter2-Small Worlds in "A First Course in Network Science"   | Sarah     |
 | 2020-12-07 |            Extreme value theory in weather & climate             | Gijs      |
+| 2021-02-15 |       Chapter3-Hubs in "A First Course in Network Science"       | Dafne     |
+| 2021-02-15 |       Chapter3-Hubs in "A First Course in Network Science"       | Djura     |
 
 ## Engineers with technical experience
 
