@@ -53,7 +53,7 @@ analytics@esciencecenter.nl
 ## Engineers with technical experience
 
 |                           Technique | Engineer(s) |
-|------------------------------------:|:------------|
+|:------------------------------------|:------------|
 | Structural Equation Modelling (SEM) | Laurens     |
 |       Hamiltonian Monte Carlo (HMC) | Patrick     |
 |    Applied dynamical systems theory | Pablo R.    |
@@ -63,7 +63,7 @@ analytics@esciencecenter.nl
 ## Engineers with software experience
 
 | Software | Engineer(s)                |
-|---------:|:---------------------------|
+|:---------|:---------------------------|
 |        R | Laurens, Vincent, Pablo R. |
 |     SPSS | Laurens                    |
 |     AMOS | Laurens                    |
@@ -72,7 +72,7 @@ analytics@esciencecenter.nl
 ## Potential topics
 
 |                                                                                                                   Topic | Suggested by |
-|------------------------------------------------------------------------------------------------------------------------:|:-------------|
+|:------------------------------------------------------------------------------------------------------------------------|:-------------|
 | [Trade-off between stability and accuracy in deep learning](https://www.sintef.no/projectweb/geilowinterschool/2021/#/) | Sarah        |
 |                                               [Kinematics with a smartphone](https://pabrod.github.io/elevator-en.html) | Pablo R.     |
 |                                                                         Something about partial differential equations? | Pablo R.     |
@@ -106,5 +106,5 @@ analytics@esciencecenter.nl
 ## Interesting open-source software
 
 | Software | Topic and source                                                                                                      |
-|---------:|:----------------------------------------------------------------------------------------------------------------------|
+|:---------|:----------------------------------------------------------------------------------------------------------------------|
 |    FORCE | [Mass-processing of selected medium-resolution satellite image archives](https://www.uni-trier.de/index.php?id=63673) |
