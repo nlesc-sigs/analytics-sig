@@ -1,18 +1,14 @@
 # SIG Lightning Talks
 
-## Must have
+## Link to the slides
 
-- What is the format of the SIG? (Following courses, doing tutorials, goals and outputs)
-- What topics are discussed in the SIG? (General scope of the SIG, not necessarily an exhaustive list)
-- When should people approach the SIG? (Engineers who are not in the SIG should contact you if they have questions about...)
+[For NLeSC members only](https://nlesc.sharepoint.com/:p:/s/statistics/EZZ09GgcLlFEvWqMF6meSDgBSjWkaTriFZcoqV-4hXKdFQ?e=yIZ8Fw).
 
-## Tentative structure
+## Outline
 
-1. Intro _(1.5 min)_
-    - Mathematics is everywhere. Yes, also in your project
+1. Intro _(1.25 min)_
     - The two meanings of the word computational
-    - Statistics, analysis, algebra, geometry, even numerics
-    - Are mathematics involved? Maybe we don't know a word about it, but certainly we are interested
+    - Mathematics is everywhere. Yes, also in your project
 2. What is our format? _(0.5 min)_
     - Two meetings per month. Each with a different purpose:
         - Firmly building a skill
@@ -23,18 +19,15 @@
     - Every month, a member of the SIG presents a section of the book
 4. Interesting topics _(1.5 min)_
     - Such as
-        - Uncertainty quantification
-        - Community detection
-        - Change detection in time series
         - Voronoi diagrams
+            - Example application: airport networks
         - Complex numbers
-        - ...
-5. Outro _(0.5 min)_
+            - Example application: aerodynamics
+        - Random walks
+            - Example application: stochastic systems theory
+5. Outro _(0.75 min)_
+    - If your project uses analysis, statistics, algebra or geometry, you may want to talk to us!
+        - If not, also let us know. It is really hard to find a project that doesn't!
     - We are Dafne, Johan, Sarah and Pablo R.
     - Want to join? Contact us!
-    - Do you think we may be of help? Contact us!
-
-## Notes
-
-I think it could be a good idea to make the content of each individual talk more public, specially in such a broad SIG as this one.
-I mean, perhaps someone is not very interested in mathematics in general, but she or he is extremely motivated about QR decomposition, and wants to join us for a single day.
+    - Do you think, or even suspect, we may be of help? Contact us!
