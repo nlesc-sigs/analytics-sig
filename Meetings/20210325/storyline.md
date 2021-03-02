@@ -17,7 +17,7 @@
     - Currently we are learning Network Theory
     - We are following a book
     - Every month, a member of the SIG presents a section of the book
-4. Interesting topics _(1.5 min)_
+4. Some example topics _(1.5 min)_
     - Such as
         - Voronoi diagrams
             - Example application: airport networks
