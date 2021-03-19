@@ -52,35 +52,39 @@ analytics@esciencecenter.nl
 
 ## Engineers with technical experience
 
-|                           Technique | Engineer(s) |
+| Technique                           | Engineer(s) |
 |:------------------------------------|:------------|
 | Structural Equation Modelling (SEM) | Laurens     |
-|       Hamiltonian Monte Carlo (HMC) | Patrick     |
-|    Applied dynamical systems theory | Pablo R.    |
-|                     Computer vision | Pablo R.    |
-|                      Geo-statistics | Sarah       |
+| Hamiltonian Monte Carlo (HMC)       | Patrick     |
+| Applied dynamical systems theory    | Pablo R.    |
+| Computer vision                     | Pablo R.    |
+| Geo-statistics                      | Sarah       |
 
 ## Engineers with software experience
 
 | Software | Engineer(s)                |
 |:---------|:---------------------------|
-|        R | Laurens, Vincent, Pablo R. |
-|     SPSS | Laurens                    |
-|     AMOS | Laurens                    |
-|   Matlab | Pablo R.                   |
+| R        | Laurens, Vincent, Pablo R. |
+| SPSS     | Laurens                    |
+| AMOS     | Laurens                    |
+| Matlab   | Pablo R.                   |
 
 ## Potential topics
 
-|                                                                                                                   Topic | Suggested by |
-|:------------------------------------------------------------------------------------------------------------------------|:-------------|
-| [Trade-off between stability and accuracy in deep learning](https://www.sintef.no/projectweb/geilowinterschool/2021/#/) | Sarah        |
-|                                               [Kinematics with a smartphone](https://pabrod.github.io/elevator-en.html) | Pablo R.     |
-|                                                                         Something about partial differential equations? | Pablo R.     |
-|                                                   Watch lecture on [Network epidemiology](https://youtu.be/vwVDJVbw10k) | Dafne        |
-|                            Watch lectures on [Random walks](https://www.complexityexplorer.org/courses/46-random-walks) | Dafne        |
+| Topic                                                                                                                           | Suggested by |
+|:--------------------------------------------------------------------------------------------------------------------------------|:-------------|
+| [Trade-off between stability and accuracy in deep learning](https://www.sintef.no/projectweb/geilowinterschool/2021/#/)         | Sarah        |
+| [Kinematics with a smartphone](https://pabrod.github.io/elevator-en.html)                                                       | Pablo R.     |
+| Something about partial differential equations?                                                                                 | Pablo R.     |
+| Watch lecture on [Network epidemiology](https://youtu.be/vwVDJVbw10k)                                                           | Dafne        |
+| Watch lectures on [Random walks](https://www.complexityexplorer.org/courses/46-random-walks)                                    | Dafne        |
 | Course on [Agent based models](https://www.complexityexplorer.org/courses/101-introduction-to-agent-based-modeling-spring-2020) | Dafne        |
 
+## Potential invited speakers
 
+| Name           | Institution | Expertise     | Notes            |
+|:---------------|:------------|:--------------|:-----------------|
+| Pablo Deleteme | NLeSC       | Making tables | Delete this line |
 
 ## Interesting events
 
@@ -107,4 +111,4 @@ analytics@esciencecenter.nl
 
 | Software | Topic and source                                                                                                      |
 |:---------|:----------------------------------------------------------------------------------------------------------------------|
-|    FORCE | [Mass-processing of selected medium-resolution satellite image archives](https://www.uni-trier.de/index.php?id=63673) |
+| FORCE    | [Mass-processing of selected medium-resolution satellite image archives](https://www.uni-trier.de/index.php?id=63673) |
