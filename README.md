@@ -95,6 +95,8 @@ analytics@esciencecenter.nl
 |   Utrecht | Utrecht University | [Complexity lab](https://www.uu.nl/en/research/complex-systems-studies/research/complexity-laboratorium-utrecht) |
 | Amsterdam |       MeetUp       | [Data Science Amsterdam](https://www.meetup.com/Data-Science-Amsterdam/)                                         |
 | Amsterdam |       MeetUp       | [Amste-R-dam](https://www.meetup.com/amst-R-dam/)                                                                |
+|         - |      Congress      | [Nederlands Matematisch Congres](https://mathematischcongres.nl/)                                                |
+
 
 ## Interesting training courses
 
@@ -112,3 +114,7 @@ analytics@esciencecenter.nl
 | Software | Topic and source                                                                                                      |
 |:---------|:----------------------------------------------------------------------------------------------------------------------|
 | FORCE    | [Mass-processing of selected medium-resolution satellite image archives](https://www.uni-trier.de/index.php?id=63673) |
+
+## Other resources
+
+- [NWO/Mathematics](https://www.nwo.nl/en/mathematics)
