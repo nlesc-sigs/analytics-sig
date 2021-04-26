@@ -49,10 +49,11 @@ analytics@esciencecenter.nl
 | 2020-11-23 |   Chapter2-Small Worlds in "A First Course in Network Science"   | Sarah           |
 | 2020-12-07 |            Extreme value theory in weather & climate             | Gijs            |
 | 2021-02-15 |       Chapter3-Hubs in "A First Course in Network Science"       | Dafne & Djura   |
-| 2021-03-01 |                         Random walks - part I                    | video-lecture   |
-| 2021-03-15 |   Chapter4-Directions in "A First Course in Network Science"     | Sarah & Barbara |
-| 2021-03-25 |                       SIG lightning talk                         | Pablo R.        |
-| 2021-03-29 |             Mining gold with Bayesian Optimization               | Floris          |
+| 2021-03-01 |                      Random walks - part I                       | video-lecture   |
+| 2021-03-15 |    Chapter4-Directions in "A First Course in Network Science"    | Sarah & Barbara |
+| 2021-03-25 |                        SIG lightning talk                        | Pablo R.        |
+| 2021-03-29 |              Mining gold with Bayesian Optimization              | Floris          |
+| 2021-04-26 |                 Probability, by Richard Feynman                  | Pablo R.        |
 
 ## Engineers with technical experience
 
@@ -75,14 +76,15 @@ analytics@esciencecenter.nl
 
 ## Potential topics
 
-| Topic                                                                                                                           | Suggested by |
-|:--------------------------------------------------------------------------------------------------------------------------------|:-------------|
-| [Trade-off between stability and accuracy in deep learning](https://www.sintef.no/projectweb/geilowinterschool/2021/#/)         | Sarah        |
-| [Kinematics with a smartphone](https://pabrod.github.io/elevator-en.html)                                                       | Pablo R.     |
-| Something about partial differential equations?                                                                                 | Pablo R.     |
-| Watch lecture on [Network epidemiology](https://youtu.be/vwVDJVbw10k)                                                           | Dafne        |
-| Watch lectures on [Random walks](https://www.complexityexplorer.org/courses/46-random-walks)                                    | Dafne        |
-| Course on [Agent based models](https://www.complexityexplorer.org/courses/101-introduction-to-agent-based-modeling-spring-2020) | Dafne        |
+| Topic                                                                                                                           | Suggested by         |
+|:--------------------------------------------------------------------------------------------------------------------------------|:---------------------|
+| [Trade-off between stability and accuracy in deep learning](https://www.sintef.no/projectweb/geilowinterschool/2021/#/)         | Sarah                |
+| [Kinematics with a smartphone](https://pabrod.github.io/elevator-en.html)                                                       | Pablo R.             |
+| Something about partial differential equations?                                                                                 | Pablo R.             |
+| Watch lecture on [Network epidemiology](https://youtu.be/vwVDJVbw10k)                                                           | Dafne                |
+| Watch lectures on [Random walks](https://www.complexityexplorer.org/courses/46-random-walks)                                    | Dafne                |
+| Course on [Agent based models](https://www.complexityexplorer.org/courses/101-introduction-to-agent-based-modeling-spring-2020) | Dafne                |
+| Counter-intuitive probability problems                                                                                          | Pablo R. and Barbara |
 
 ## Potential invited speakers
 
