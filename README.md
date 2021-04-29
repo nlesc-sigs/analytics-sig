@@ -53,6 +53,7 @@ analytics@esciencecenter.nl
 | 2021-03-15 |    Chapter4-Directions in "A First Course in Network Science"    | Sarah & Barbara |
 | 2021-03-25 |                        SIG lightning talk                        | Pablo R.        |
 | 2021-03-29 |              Mining gold with Bayesian Optimization              | Floris          |
+| 2021-04-12 |         Chapter4&5- "A First Course in Network Science"          | Cunliang & Sarah|
 | 2021-04-26 |                 Probability, by Richard Feynman                  | Pablo R.        |
 
 ## Engineers with technical experience
