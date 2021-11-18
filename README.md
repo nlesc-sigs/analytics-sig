@@ -57,6 +57,7 @@ analytics@esciencecenter.nl
 | 2021-04-26 |                 Probability, by Richard Feynman                  | Pablo R.        |
 | 2021-06-07 |         Chapter6- "A First Course in Network Science"            | Cunliang & Sarah|
 | 2021-10-11 |                      Optimization and Julia                      | Abel            |
+| 2021-11-08 |              Descriptive and Inferential statistics              | Study Group     |
 
 ## Engineers with technical experience
 
