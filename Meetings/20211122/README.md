@@ -1,6 +1,4 @@
----
-title: Linking eScience engineers and applied mathematicians
----
+# Linking eScience engineers and applied mathematicians
 
 Previous
 [notes](https://github.com/NLeSC/Analytics-SIG/blob/master/Meetings/20210621/notes.md)
