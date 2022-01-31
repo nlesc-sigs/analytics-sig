@@ -56,8 +56,12 @@ analytics@esciencecenter.nl
 | 2021-04-12 |         Chapter4&5- "A First Course in Network Science"          | Cunliang & Sarah|
 | 2021-04-26 |                 Probability, by Richard Feynman                  | Pablo R.        |
 | 2021-06-07 |         Chapter6- "A First Course in Network Science"            | Cunliang & Sarah|
+| 2021-06-21 |              Brainstorming on applied mathematics                | Jens            |
 | 2021-10-11 |                      Optimization and Julia                      | Abel            |
 | 2021-11-08 |              Descriptive and Inferential statistics              | Study Group     |
+| 2021-11-22 |              Brainstorming on applied mathematics                | Johan & Pablo   |
+| 2022-01-17 |              Descriptive and Inferential statistics              | Study Group     |
+| 2021-01-31 |              Pattern formation                                   | Frits           |
 
 ## Engineers with technical experience
 
