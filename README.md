@@ -62,6 +62,7 @@ analytics@esciencecenter.nl
 | 2021-11-22 |              Brainstorming on applied mathematics                | Johan & Pablo   |
 | 2022-01-17 |              Descriptive and Inferential statistics              | Study Group     |
 | 2021-01-31 |              Pattern formation                                   | Frits           |
+| 2022-02-28 |              Leaders meeting                                     | SIG meetings    |
 
 ## Engineers with technical experience
 
