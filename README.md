@@ -68,6 +68,7 @@ analytics@esciencecenter.nl
 | 2022-04-11 |                           Study group                            | Study Group      |
 | 2022-04-25 |                           Study group                            | Johan            |
 | 2022-05-09 |                      Brainstorm public SIGs                      | Pablo R.         |
+| 2022-07-18 |                      SIG future strategy                         | Pablo R.         |
 
 ## Engineers with technical experience
 
