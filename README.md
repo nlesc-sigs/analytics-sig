@@ -99,7 +99,9 @@ analytics@esciencecenter.nl
 | Watch lecture on [Network epidemiology](https://youtu.be/vwVDJVbw10k)                                                           | Dafne                |
 | Watch lectures on [Random walks](https://www.complexityexplorer.org/courses/46-random-walks)                                    | Dafne                |
 | Course on [Agent based models](https://www.complexityexplorer.org/courses/101-introduction-to-agent-based-modeling-spring-2020) | Dafne                |
-| Counter-intuitive probability problems                                                                                          | Pablo R. and Barbara |
+| Counter-intuitive probability problems                                                                                          | Pablo R. and Barbara| 
+| Structure-preserving numerical methods for PDEs                                                                                 | Artur |
+| Reproducing a model | Pablo R. |
 
 ## Potential invited speakers
 
