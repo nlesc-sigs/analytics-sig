@@ -69,6 +69,7 @@ analytics@esciencecenter.nl
 | 2022-04-25 |                           Study group                            | Johan            |
 | 2022-05-09 |                      Brainstorm public SIGs                      | Pablo R.         |
 | 2022-07-18 |                      SIG future strategy                         | Pablo R.         |
+| 2023-05-25 | Geometric Numerical Integration and Scientific Machine Learning  | Michael Kraus, MPI - NMPP |
 
 ## Engineers with technical experience
 
