@@ -1,5 +1,19 @@
 #  NLeSc Analytics Special Interest Group (SIG)
 
+The mission of this SIG is to raise general knowledge on applied analytical solutions in the Netherlands eScience Center, as well as their technical implementations. We aim for a deeper understanding than is generally needed to use a specific method, that is, to go beyond the black-box level of thinking. Mathematics/statistics is capable of drastically reducing the complexity of existing solutions in a wide variety of cases, as well as formulating novel ideas that lie outside our comfort zone.
+
+We meet roughly every 4 weeks and have, in between, also shared sessions with with Machine Learning SIG.
+
+If you would like to present or invite an external speaker, please feel free to subscribe for any of the upcoming sessions in the table below using a pull request or by opening an [issue](https://github.com/NLeSC/analytics-sig/issues).
+
+Contact persons
+- Flavio Hafner (f.hafner@esciencecenter.nl)
+- Johan Hidding (j.hidding@esciencecenter.nl)
+
+
+## Current schedule
+See the [markdown file](./current_schedule.md)
+
 ## Bring your own analytical challenges
 
 Do you encounter statistics/mathematics problems in your projects? You can bring your issue to the SIG -- we can look at the issue together and do our best to find an applied analytical solution.
@@ -18,11 +32,18 @@ We will discuss your issue during the next SIG meeting.
 
 Did you do something really cool? Share your experiences with the SIG! Contact the SIG to arrange a presentation in one of the upcoming sessions.
 
-## SIG contact
-analytics@esciencecenter.nl
-
 ## Previous sessions
 
+### 2023 sessions
+| Date                         | Type           | Speaker                | Topic                                                                   |
+|------------------------------|----------------|------------------------|-------------------------------------------------------------------------|
+| September 14, 2023 | Analytics      | Video: Larry Wasserman  | [Foundations of Statistical Inference](https://www.youtube.com/watch?v=Z-YvWyM6dRQ)                                    |
+| September 21, 2023 | Analytics/ML  | Malte Lueken/Flavio Hafner         | Causal Inference                                                        |
+| October 12, 2023   | Analytics      | Thijs Vroegh           | Social network analysis: the aspect of time                                                |
+| October 19, 2023   | Analytics/ML  | Video: Kyle Cranmer     | [Simulation-based inference, interpretability, and experimental design](https://www.youtube.com/watch?v=Lwoc092z75A) |
+| December 7, 2023   | Analytics      | Chang Sun (Maastricht University) | Differentially private synthetic data                                   |
+
+### Pre-2023
 |       Date |                              Topic                               | Presenter        |
 |-----------:|:----------------------------------------------------------------:|:-----------------|
 | 2018-04-12 |                       Importance weighting                       | Wouter           |
