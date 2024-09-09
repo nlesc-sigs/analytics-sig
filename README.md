@@ -4,7 +4,7 @@ The mission of this SIG is to raise general knowledge on applied analytical solu
 
 We meet roughly every 4 weeks and have, in between, also shared sessions with with Machine Learning SIG.
 
-If you would like to present or invite an external speaker, please feel free to subscribe for any of the upcoming sessions in the table below using a pull request or by opening an [issue](https://github.com/NLeSC/analytics-sig/issues).
+If you would like to present or invite an external speaker, please feel free to subscribe for any of the upcoming sessions in the table below using a pull request or by opening an [issue](https://github.com/nlesc-sigs/analytics-sig/issues).
 
 Contact persons
 - Flavio Hafner (f.hafner@esciencecenter.nl)
