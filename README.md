@@ -24,9 +24,9 @@ Contact persons
 | October 3, 2024    | Analytics    |  --                | --      |
 | October 10, 2024   | Analytics/ML | Bob Carpenter (Flatiron Institute)    |   PPL design for Bayesian workflow    |
 | October 31, 2024   | Analytics    |  --               | --       |
-| November 7, 2024   | Analytics/ML | either of 5/12 or 7/11 are reserved | --      |
+| November 7, 2024   | Analytics/ML | -- | --      |
 | November 28, 2024  | Analytics    | Erik van Zwet (Leiden UMC)    |   Shrinkage Trilogy    |
-| December 5, 2024   | Analytics/ML | either of 5/12 or 7/11 are reserved |  --     |
+| December 5, 2024   | Analytics/ML | -- |  --     |
 
 
 ## Bring your own analytical challenges
