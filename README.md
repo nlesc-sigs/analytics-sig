@@ -22,7 +22,7 @@ Contact persons
 | July 4, 2024       | Analytics    | Nishant Joshi (Donders Institute) | Methods for Comparing Unsupervised Clusters Across Modalities in a Single Neuron Dataset |
 | September 12, 2024 | Analytics/ML | Video: Jake Hofman | [Prediction and explanation in the social sciences](https://www.youtube.com/watch?v=iTWkHre3jkY) |
 | October 3, 2024    | Analytics    |  --                | --      |
-| October 10, 2024   | Analytics/ML | Bob Carpenter (Flatiron Institute)    |   PPL design for Bayesian workflow    |
+| October 10, 2024   | Analytics/ML | Bob Carpenter (Flatiron Institute)    |   [PPL design for Bayesian workflow](Meetings/20241010/bayesian_workflow_probprog.pdf)    |
 | October 31, 2024   | Analytics    |  --               | --       |
 | November 7, 2024   | Analytics/ML | -- | --      |
 | November 28, 2024  | Analytics    | Erik van Zwet (Leiden UMC)    |   Shrinkage Trilogy    |
