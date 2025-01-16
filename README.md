@@ -11,7 +11,7 @@ Contact persons
 - Johan Hidding (j.hidding@esciencecenter.nl)
 
 
-## Current schedule (2024)
+## Current schedule (2025)
 | Date                         | Type         | Speaker          | Topic |
 |------------------------------|--------------|------------------|-------|
 | January 30, 2025  | Analytics     |   |   |
@@ -22,7 +22,7 @@ Contact persons
 | April 3, 2025     | Analytics/ML  |   |   |
 | April 24, 2025    | Analytics     |   |   |
 | May 1, 2025       | Analytics/ML  |   |   |
-| May 22, 2025      | Analytics     |   |   |
+| May 22, 2025      | Analytics     | Malte Lueken   |  TBD  |
 | May 29, 2025      | Analytics/ML  |   |   |
 | June 19, 2025     | Analytics     |   |   |
 | June 26, 2025     | Analytics/ML  |   |   |
