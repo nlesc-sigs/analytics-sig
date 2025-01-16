@@ -14,19 +14,20 @@ Contact persons
 ## Current schedule (2024)
 | Date                         | Type         | Speaker          | Topic |
 |------------------------------|--------------|------------------|-------|
-| January 25, 2024   | Analytics/ML | Laurent Soucasse  | Analysis and modelling of thermal convection from simulation data through machine learning techniques |
-| March 14, 2024     | Analytics    | Video: 3b1b | [But what is a convolution?](https://www.youtube.com/watch?v=KuXjwB4LzSA) |
-| May 16, 2024       | Analytics/ML | Djura Smits      | Privacy protection I: federated learning |
-| June 6, 2024       | Analytics    | Flavio Hafner | Privacy protection II: differential privacy |
-| June 13, 2024      | Analytics/ML | Malte Lueken |  Introduction to amortized Bayesian inference |
-| July 4, 2024       | Analytics    | Nishant Joshi (Donders Institute) | Methods for Comparing Unsupervised Clusters Across Modalities in a Single Neuron Dataset |
-| September 12, 2024 | Analytics/ML | Video: Jake Hofman | [Prediction and explanation in the social sciences](https://www.youtube.com/watch?v=iTWkHre3jkY) |
-| October 3, 2024    | Analytics    |  --                | --      |
-| October 10, 2024   | Analytics/ML | Bob Carpenter (Flatiron Institute)    |   [PPL design for Bayesian workflow](Meetings/20241010/bayesian_workflow_probprog.pdf)    |
-| October 31, 2024   | Analytics    |  --               | --       |
-| November 7, 2024   | Analytics/ML | -- | --      |
-| November 28, 2024  | Analytics    | Erik van Zwet (Leiden UMC)    |  [A new look at clinical trials](Meetings/20241128/talk_ErikVanZwet.pdf)  |
-| December 5, 2024   | Analytics/ML | -- |  --     |
+| January 30, 2025  | Analytics     |   |   |
+| February 6, 2025  | Analytics/ML  |   |   |
+| February 27, 2025 | Analytics     |   |   |
+| March 6, 2025     | Analytics/ML  |   |   |
+| March 27, 2025    | Analytics     |   |   |
+| April 3, 2025     | Analytics/ML  |   |   |
+| April 24, 2025    | Analytics     |   |   |
+| May 1, 2025       | Analytics/ML  |   |   |
+| May 22, 2025      | Analytics     |   |   |
+| May 29, 2025      | Analytics/ML  |   |   |
+| June 19, 2025     | Analytics     |   |   |
+| June 26, 2025     | Analytics/ML  |   |   |
+| July 17, 2025     | Analytics     |   |   |
+
 
 
 ## Bring your own analytical challenges
@@ -48,6 +49,19 @@ We will discuss your issue during the next SIG meeting.
 Did you do something really cool? Share your experiences with the SIG! Contact the SIG to arrange a presentation in one of the upcoming sessions.
 
 ## Previous sessions
+
+### 2024 sessions
+| Date                         | Type         | Speaker          | Topic |
+|------------------------------|--------------|------------------|-------|
+| January 25, 2024   | Analytics/ML | Laurent Soucasse  | Analysis and modelling of thermal convection from simulation data through machine learning techniques |
+| March 14, 2024     | Analytics    | Video: 3b1b | [But what is a convolution?](https://www.youtube.com/watch?v=KuXjwB4LzSA) |
+| May 16, 2024       | Analytics/ML | Djura Smits      | Privacy protection I: federated learning |
+| June 6, 2024       | Analytics    | Flavio Hafner | Privacy protection II: differential privacy |
+| June 13, 2024      | Analytics/ML | Malte Lueken |  Introduction to amortized Bayesian inference |
+| July 4, 2024       | Analytics    | Nishant Joshi (Donders Institute) | Methods for Comparing Unsupervised Clusters Across Modalities in a Single Neuron Dataset |
+| September 12, 2024 | Analytics/ML | Video: Jake Hofman | [Prediction and explanation in the social sciences](https://www.youtube.com/watch?v=iTWkHre3jkY) |
+| October 10, 2024   | Analytics/ML | Bob Carpenter (Flatiron Institute)    |   [PPL design for Bayesian workflow](Meetings/20241010/bayesian_workflow_probprog.pdf)    |
+| November 28, 2024  | Analytics    | Erik van Zwet (Leiden UMC)    |  [A new look at clinical trials](Meetings/20241128/talk_ErikVanZwet.pdf)  |
 
 ### 2023 sessions
 | Date                         | Type           | Speaker                | Topic                                                                   |
